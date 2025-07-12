@@ -14,7 +14,7 @@ A lightweight Todo application built with Next.js and React featuring two-way bi
 
 ## 🌐 Live Demo
 
-**[View the live demo here → [LIVE_DEMO_URL](https://github.com/skmdJeesan/Todo-App)]**  
+**[View the live demo here → [LIVE_DEMO_URL]([(https://skmdjeesan.github.io/Todo-App/)])**  
 
 ---
 
