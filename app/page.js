@@ -30,10 +30,12 @@ const page = () => {
   }
 
   return (
-    <div>
-      <Header />
-      <Form submitHandler={submitHandler} task={task} setTask={setTask} desc={desc} setDesc={setDesc}/>
-      <Tasks tasklist={tasklist} deleteHandler={deleteHandler}/>
+    <div className='h-screen w-full py-1 bg-[#a8ede9e1]'>
+      <div className='mt-10 px-10'>
+        <Header />
+        <Form submitHandler={submitHandler} task={task} setTask={setTask} desc={desc} setDesc={setDesc}/>
+        <Tasks tasklist={tasklist} deleteHandler={deleteHandler}/>
+      </div>
     </div>
   )
 }
