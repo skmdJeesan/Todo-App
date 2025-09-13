@@ -30,7 +30,7 @@ const page = () => {
   }
 
   return (
-    <div className='h-screen w-full py-1 bg-[#a8ede9e1]'>
+    <div className='page h-screen w-full py-1 bg-[#a8ede9e1]'>
       <div className='mt-10 px-10'>
         <Header />
         <Form submitHandler={submitHandler} task={task} setTask={setTask} desc={desc} setDesc={setDesc}/>

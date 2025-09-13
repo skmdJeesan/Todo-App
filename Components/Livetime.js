@@ -14,7 +14,7 @@ export default function Livetime({ locale = "en-IN", hour12 = false }) {
   if (!now) return null;
 
   return (
-    <time dateTime={now.toISOString()} className='text-black'>
+    <time dateTime={now.toISOString()} className='text-white'>
       {now.toLocaleString(locale, {
         weekday: "short",
         year: "numeric",
