@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Tasks = ({tasklist, deleteHandler}) => {
-  let renderTask = <h2 className='text-center text-2xl text-emerald-400 font-bold mt-30 py-2 px-4 justify-center bg-[#ffffff18] backdrop-blur-[10px] rounded-full shadow-2xl border-1 border-[#ffffff13] w-100 text-medium absolute top-50 left-120'>No task Available!</h2>
+  let renderTask = <h2 className='text-center text-2xl text-emerald-400 font-bold mt-30 py-2 px-4 bg-[#ffffff18] backdrop-blur-[10px] rounded-full shadow-2xl border-1 border-[#ffffff13] w-100 text-medium'>No task Available!</h2>
   if(tasklist.length > 0){
     renderTask = tasklist.map((t,i) => {
       return (
@@ -21,7 +21,7 @@ const Tasks = ({tasklist, deleteHandler}) => {
   }
   return (
     <>
-      <ul className='mt-5'>{renderTask}</ul>
+      <ul className='mt-5 flex flex-col items-center'>{renderTask}</ul>
     </>
   )
 }
